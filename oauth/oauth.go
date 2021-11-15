@@ -13,7 +13,7 @@ import (
 
 var (
 	oauthRestClient = rest.RequestBuilder{
-		BaseURL: "https://localhost:8080",
+		BaseURL: "http://localhost:8080",
 		Timeout: 200 * time.Millisecond,
 	}
 )
